@@ -3,13 +3,12 @@ import torch.nn as nn
 
 
 class BiLSTM(nn.Module):
-    def __init__(self, input_dim, embedding_dim, hidden_dim, output_dim, bidirectional=True):
+    def __init__(self, input_dim, embedding_dim, hidden_dim, output_dim):
         super(BiLSTM, self).__init__()
         self.input_dim = input_dim
         self.embedding_dim = embedding_dim
         self.hidden_dim = hidden_dim
         self.output_dim = output_dim
-        self.bidirectional = bidirectional
 
         self.embedding = nn.Embedding(input_dim * 10, embedding_dim, padding_idx=0)
         self.embedding.weight.data = nn.Parameter(torch.empty(input_dim, embedding_dim))
