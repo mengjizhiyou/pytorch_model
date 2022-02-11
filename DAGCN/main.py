@@ -1,7 +1,3 @@
-# https://www.jiqizhixin.com/articles/2019-04-15-11
-# https://github.com/muhanzhang/pytorch_DGCNN
-# https://github.com/dawenzi123/DAGCN
-
 import os
 import torch
 import random
