@@ -5,4 +5,4 @@ spectral clustering based on sklearn [code](https://github.com/BSAraujo/Spectral
 
 spectral clustering based on numpy [code](https://github.com/colflip/SpectralClustering)
 
-spectral clustering based on networkx[code](https://github.com/zjost/blog_code)
+spectral clustering based on networkx[code] (https://github.com/zjost/blog_code)
